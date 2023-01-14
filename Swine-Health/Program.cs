@@ -54,10 +54,6 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: _allowDefaultOrigins,
         builder =>
         {
-            //builder.WithOrigins("https://smartfarm-dev-web2.logisboysolutions.com")
-            //       .AllowAnyOrigin()
-            //       .AllowAnyMethod()
-            //       .AllowAnyHeader();
             builder.AllowAnyOrigin()
                    .AllowAnyMethod()
                    .AllowAnyHeader();
@@ -67,7 +63,7 @@ builder.Services.AddCors(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(option =>
 {
-    option.SwaggerDoc("v1", new OpenApiInfo { Title = "Swine Health API", Version = "v1" });
+    option.SwaggerDoc("v1", new OpenApiInfo { Title = "Test_SEC_P API", Version = "v1" });
     option.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         In = ParameterLocation.Header,
