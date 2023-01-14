@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test_SEC_P", "Swine-Health\Test_SEC_P.csproj", "{77036584-0885-428E-9F31-330DB572490C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77036584-0885-428E-9F31-330DB572490C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77036584-0885-428E-9F31-330DB572490C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77036584-0885-428E-9F31-330DB572490C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77036584-0885-428E-9F31-330DB572490C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {804671E1-F485-49C3-A47E-4A14ED4810D1}
+	EndGlobalSection
+EndGlobal
